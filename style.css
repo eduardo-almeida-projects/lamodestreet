@@ -1,0 +1,357 @@
+::selection {
+    z-index: 9;
+    background-color: rgba(170, 255, 12, 0.555);
+    color: black;
+}
+html {
+    background-color: rgb(0, 0, 0);
+}
+header#mainHeader {
+	position: fixed;
+	top: 4%;
+	left: 0.3%;
+	width: 99%;
+    height: 11%;
+	background-color: rgb(0, 0, 0);
+	z-index: 1;
+    box-shadow: 3px 3px 0px rgb(0, 0, 0);
+	transition: all 0.3s ease-in-out;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+img#logoMainHeader {
+    position: fixed;
+    top: 40px;
+    left: 65px;
+    width: 13%;
+}
+p#lancamentosMainHeader {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    font-size: 13pt;
+    text-decoration: none;
+    font-family: sans-serif;
+    top: 35px;
+    left: 375px;
+}
+p#lancamentosMainHeader:hover {
+    color: rgb(166, 255, 0);
+    transition: 0.25s;
+}
+p#estacoesMainHeader {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    font-size: 13pt;
+    text-decoration: none;
+    font-family: sans-serif;
+    top: 35px;
+    left: 525px;
+}
+p#estacoesMainHeader:hover {
+    color: rgb(182, 252, 52);
+    transition: 0.25s;
+}
+p#destaquesMainHeader {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    font-size: 13pt;
+    text-decoration: none;
+    font-family: sans-serif;
+    top: 35px;
+    left: 625px;
+}
+p#destaquesMainHeader:hover {
+    color: rgb(182, 252, 52);
+    transition: 0.25s;
+}
+p#recomendadosMainHeader {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    font-size: 13pt;
+    text-decoration: none;
+    font-family: sans-serif;
+    top: 35px;
+    left: 750px;
+}
+p#recomendadosMainHeader:hover {
+    color: rgb(182, 252, 52);
+    transition: 0.25s;
+}
+h1#nomeMainHeader {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: sans-serif;
+    top: 20.5px;
+    left: 125px;
+}
+button#contatoMainHeader {
+    position: fixed;
+    left: 1125px;
+    top: 38px;
+    background-color: #1b1b1b; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 12px 24px; /* Espaçamento interno do botão */
+    text-align: center; /* Centraliza o texto do botão */
+    text-decoration: none; /* Remove o sublinhado do texto */
+    display: inline-block; /* Define o botão como elemento inline */
+    font-size: 16px; /* Tamanho da fonte do texto do botão */
+    border-radius: 7px; /* Arredonda as bordas do botão */
+    border: 2px solid white;
+    box-shadow: 3px 3px 0 white;
+    cursor: pointer; /* Transforma o cursor em uma mãozinha quando passa sobre o botão */
+    transition: 0.25s;
+  }
+button#contatoMainHeader:hover {
+    background-color: rgb(182, 252, 52);
+    color: black;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    top: 41px;
+    left: 1128px;
+}
+div#redLineTopper {
+    position: absolute;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 25pt;
+    top: 150px;
+    left: 9%;
+    color: white;
+    word-break: break-word;
+}
+div#redLineSubtitle {
+    position: absolute;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 17pt;
+    top: 350px;
+    left: 39.5%;
+    transform: translate(-50%);
+    color: white;
+    word-wrap: normal;
+}
+button#descubraButton {
+    position: absolute;
+    left: 9%;
+    top: 500px;
+    background-color: rgb(182, 252, 52); /* Cor de fundo do botão */
+    color: #1b1b1b; /* Cor do texto do botão */
+    padding: 12px 24px; /* Espaçamento interno do botão */
+    text-align: center; /* Centraliza o texto do botão */
+    text-decoration: none; /* Remove o sublinhado do texto */
+    display: inline-block; /* Define o botão como elemento inline */
+    font-size: 17pt; /* Tamanho da fonte do texto do botão */
+    border-radius: 7px; /* Arredonda as bordas do botão */
+    border: 2px solid white;
+    box-shadow: 3px 3px 0 white;
+    cursor: pointer; /* Transforma o cursor em uma mãozinha quando passa sobre o botão */
+    transition: 0.25s;
+}
+button#descubraButton:hover {
+    background-color: rgb(159, 219, 48);
+    color: black;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    top: 503px;
+    left: 9.1%;
+}
+button#saibaMaisButton {
+    position: absolute;
+    left: 22%;
+    top: 500px;
+    background-color: #1b1b1b;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17pt;
+    border-radius: 7px;
+    border: 2px solid white;
+    box-shadow: 3px 3px 0 white;
+    cursor: pointer;
+    transition: 0.25s;
+}
+button#saibaMaisButton:hover {
+    background-color: #161616;
+    box-shadow: 0 0 0 rgb(0, 0, 0, 0);
+    top: 503px;
+    left: 22.1%;
+}
+/* Adaptação para mobile*/
+@media only screen and (max-device-width: 1024px) {
+    h1#nomeMainHeader {
+        position: fixed;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: sans-serif;
+        top: 15px;
+        left: 125px;
+    }
+    img#logoMainHeader {
+        position: fixed;
+        top: 40px;
+        left: 40px;
+        width: 120px;
+    }
+    p#lancamentosMainHeader {
+        position: fixed;
+        color: black;
+        font-size: 0px;
+        text-decoration: none;
+        font-family: sans-serif;
+        top: 0px;
+        left: 0px;
+    }
+    p#estacoesMainHeader {
+        position: fixed;
+        color: rgba(255, 255, 255, 0);
+        font-size: 0px;
+        text-decoration: none;
+        font-family: sans-serif;
+        top: 0px;
+        left: 0px;
+    }
+    p#destaquesMainHeader {
+        position: fixed;
+        color: black;
+        font-size: 0px;
+        text-decoration: none;
+        font-family: sans-serif;
+        top: 0px;
+        left: 0px;
+    }
+    p#recomendadosMainHeader {
+        position: fixed;
+        color: black;
+        font-size: 0px;
+        text-decoration: none;
+        font-family: sans-serif;
+        top: 0px;
+        left: 0px;
+    }
+    button#contatoMainHeader {
+        position: fixed;
+        left: 80%;
+        top: 40px;
+        background-color: #1b1b1b; /* Cor de fundo do botão */
+        color: white; /* Cor do texto do botão */
+        padding: 3px 6px; /* Espaçamento interno do botão */
+        text-align: center; /* Centraliza o texto do botão */
+        text-decoration: none; /* Remove o sublinhado do texto */
+        display: inline-block; /* Define o botão como elemento inline */
+        font-size: 16px; /* Tamanho da fonte do texto do botão */
+        border-radius: 7px; /* Arredonda as bordas do botão */
+        border: 2px solid white;
+        box-shadow: 3px 3px 0 white;
+        cursor: pointer; /* Transforma o cursor em uma mãozinha quando passa sobre o botão */
+        transition: 0.25s;
+    }
+    button#contatoMainHeader:hover {
+        background-color: rgb(182, 252, 52);
+        color: black;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        top: 40px;
+        left: 60%;
+    }
+    div#redLineTopper {
+        position: absolute;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 17pt;
+        top: 125px;
+        left: 50%;
+        transform: translate(-50%);
+        color: white;
+        word-wrap: normal;
+    }
+    div#redLineSubtitle {
+        position: absolute;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 0.85em;
+        top: 370px;
+        left: 50%;
+        transform: translate(-50%);
+        color: white;
+        word-wrap: normal;
+    }
+    button#descubraButton {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 600px;
+        background-color: rgb(182, 252, 52); /* Cor de fundo do botão */
+        color: #1b1b1b; /* Cor do texto do botão */
+        padding: 8px 20px; /* Espaçamento interno do botão */
+        text-align: center; /* Centraliza o texto do botão */
+        text-decoration: none; /* Remove o sublinhado do texto */
+        display: inline-block; /* Define o botão como elemento inline */
+        font-size: 11pt; /* Tamanho da fonte do texto do botão */
+        border-radius: 7px; /* Arredonda as bordas do botão */
+        border: 2px solid white;
+        box-shadow: 3px 3px 0 white;
+        cursor: pointer; /* Transforma o cursor em uma mãozinha quando passa sobre o botão */
+    }
+    button#descubraButton:hover {
+        background-color: rgb(159, 219, 48);
+        color: black;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        top: 603px;
+        left: 50.1%;
+    }
+    button#saibaMaisButton {
+        position: absolute;
+        left: 50%;
+        top: 650px;
+        transform: translate(-50%);
+        background-color: #1b1b1b;
+        color: white;
+        padding: 9px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11pt;
+        border-radius: 7px;
+        border: 2px solid white;
+        box-shadow: 3px 3px 0 white;
+        cursor: pointer;
+    }
+    button#saibaMaisButton:hover {
+        background-color: #161616;
+        box-shadow: 0 0 0 rgb(0, 0, 0, 0);
+        top: 653px;
+        left: 50.1%;
+    }
+    }
+    @media only screen and (max-device-width: 691px) {
+        button#contatoMainHeader {
+            position: fixed;
+            left: 60%;
+            top: 40px;
+            background-color: #1b1b1b; /* Cor de fundo do botão */
+            color: white; /* Cor do texto do botão */
+            padding: 3px 6px; /* Espaçamento interno do botão */
+            text-align: center; /* Centraliza o texto do botão */
+            text-decoration: none; /* Remove o sublinhado do texto */
+            display: inline-block; /* Define o botão como elemento inline */
+            font-size: 16px; /* Tamanho da fonte do texto do botão */
+            border-radius: 7px; /* Arredonda as bordas do botão */
+            border: 2px solid white;
+            box-shadow: 3px 3px 0 white;
+            cursor: pointer; /* Transforma o cursor em uma mãozinha quando passa sobre o botão */
+            transition: 0.25s;
+        }
+    }
+    @media only screen and (max-device-width: 393px) {
+        div#redLineSubtitle {
+            position: absolute;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 0.85em;
+            top: 425px;
+            left: 50%;
+            transform: translate(-50%);
+            color: white;
+            word-wrap: normal;
+        }
+    }

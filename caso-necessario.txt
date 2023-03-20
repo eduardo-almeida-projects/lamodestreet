@@ -1,0 +1,78 @@
+/*Adaptação LapTop G*/
+@media only screen and (max-device-width: 1440px) {
+    img#logoMainHeader {
+        position: fixed;
+        top: 55px;
+        left: 65px;
+        width: 13%;
+    }
+    p#lancamentosMainHeader {
+        position: fixed;
+        color: rgb(255, 255, 255);
+        font-size: 13pt;
+        text-decoration: none;
+        font-family: sans-serif;
+        top: 50px;
+        left: 450px;
+    }
+    p#lancamentosMainHeader:hover {
+        color: rgb(166, 255, 0);
+        transition: 0.25s;
+    }
+    p#estacoesMainHeader {
+        position: fixed;
+        color: rgb(255, 255, 255);
+        font-size: 13pt;
+        text-decoration: none;
+        font-family: sans-serif;
+        top: 50px;
+        left: 600px;
+    }
+    p#estacoesMainHeader:hover {
+        color: rgb(182, 252, 52);
+        transition: 0.25s;
+    }
+    p#destaquesMainHeader {
+        position: fixed;
+        color: rgb(255, 255, 255);
+        font-size: 13pt;
+        text-decoration: none;
+        font-family: sans-serif;
+        top: 50px;
+        left: 700px;
+    }
+    p#destaquesMainHeader:hover {
+        color: rgb(182, 252, 52);
+        transition: 0.25s;
+    }
+    p#recomendadosMainHeader {
+        position: fixed;
+        color: rgb(255, 255, 255);
+        font-size: 13pt;
+        text-decoration: none;
+        font-family: sans-serif;
+        top: 50px;
+        left: 825px;
+    }
+    p#recomendadosMainHeader:hover {
+        color: rgb(182, 252, 52);
+        transition: 0.25s;
+    }
+    button#contatoMainHeader {
+        position: fixed;
+        left: 1200px;
+        top: 6.7%;
+        background-color: #1b1b1b; /* Cor de fundo do botão */
+        color: white; /* Cor do texto do botão */
+        padding: 12px 24px; /* Espaçamento interno do botão */
+        text-align: center; /* Centraliza o texto do botão */
+        text-decoration: none; /* Remove o sublinhado do texto */
+        display: inline-block; /* Define o botão como elemento inline */
+        font-size: 16px; /* Tamanho da fonte do texto do botão */
+        border-radius: 7px; /* Arredonda as bordas do botão */
+        border: 2px solid white;
+        box-shadow: 3px 3px 0 white;
+        cursor: pointer; /* Transforma o cursor em uma mãozinha quando passa sobre o botão */
+        transition: 0.25s;
+      }
+}
