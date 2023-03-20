@@ -89,7 +89,7 @@ button#contatoMainHeader {
     position: fixed;
     left: 1125px;
     top: 38px;
-    background-color: #1b1b1b; /* Cor de fundo do botão */
+    background-color: red; /* Cor de fundo do botão */
     color: white; /* Cor do texto do botão */
     padding: 12px 24px; /* Espaçamento interno do botão */
     text-align: center; /* Centraliza o texto do botão */
