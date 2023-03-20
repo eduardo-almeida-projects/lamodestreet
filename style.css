@@ -102,12 +102,14 @@ button#contatoMainHeader {
     cursor: pointer; /* Transforma o cursor em uma mãozinha quando passa sobre o botão */
     transition: 0.25s;
   }
-button#contatoMainHeader:hover {
-    background-color: rgb(182, 252, 52);
-    color: black;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    top: 41px;
-    left: 1128px;
+@media only screen and (max-device-width: 1024px) {
+    button#contatoMainHeader:hover {
+        background-color: rgb(182, 252, 52);
+        color: black;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        top: 41px;
+        left: 1128px;
+    }
 }
 div#redLineTopper {
     position: absolute;
@@ -247,11 +249,9 @@ button#saibaMaisButton:hover {
         transition: 0.25s;
     }
     button#contatoMainHeader:hover {
-        background-color: rgb(182, 252, 52);
-        color: black;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        position: fixed;
+        left: 80%;
         top: 40px;
-        left: 60%;
     }
     div#redLineTopper {
         position: absolute;
@@ -323,7 +323,7 @@ button#saibaMaisButton:hover {
         left: 50.1%;
     }
     }
-    @media only screen and (max-device-width: 691px) {
+    @media only screen and (max-device-width: 665px) {
         button#contatoMainHeader {
             position: fixed;
             left: 60%;
@@ -340,6 +340,11 @@ button#saibaMaisButton:hover {
             box-shadow: 3px 3px 0 white;
             cursor: pointer; /* Transforma o cursor em uma mãozinha quando passa sobre o botão */
             transition: 0.25s;
+        }
+        button#contatoMainHeader:hover {
+            position: fixed;
+            left: 60%;
+            top: 40px;
         }
     }
     @media only screen and (max-device-width: 393px) {
