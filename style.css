@@ -179,6 +179,24 @@ button#saibaMaisButton:hover {
     top: 503px;
     left: 22.1%;
 }
+div#camisaUmBox {
+    position: absolute;
+    top: 750px;
+    left: 9%;
+    width: 350px ;
+    height: 233px ;
+    background-color: rgba(255, 255, 255, 0);
+}
+img#camisaUm {
+    position: absolute;
+    top: 750px;
+    left: 9%;
+}
+div#camisaUmText {
+    position: absolute;
+    top: 990px;
+    left: 9%;
+}
 /* Adaptação para mobile*/
 @media only screen and (max-device-width: 1024px) {
     h1#nomeMainHeader {
@@ -321,6 +339,28 @@ button#saibaMaisButton:hover {
         box-shadow: 0 0 0 rgb(0, 0, 0, 0);
         top: 653px;
         left: 50.1%;
+    }
+    img#camisaUm {
+        position: absolute;
+        top: 750px;
+        left: 50%;
+        width: 200px;
+        transform: translate(-50%);
+    }
+    div#camisaUmBox {
+        position: absolute;
+        top: 750px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 200px ;
+        height: 133px ;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    div#camisaUmText {
+        position: absolute;
+        top: 890px;
+        left: 50%;
+        transform: translate(-50%);
     }
     }
     @media only screen and (max-device-width: 665px) {
