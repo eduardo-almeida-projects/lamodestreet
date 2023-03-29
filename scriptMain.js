@@ -2,7 +2,7 @@ var camisa1 = document.getElementById('camisaUmBox');
 
 function scrollToElement() {
     console.log('FUNCIONANDO')
-    var elemento = document.getElementById("#"); //INSIRA ALGO AQUI APÓS CRIAR O CORPO DO SITE
+    var elemento = document.getElementById("camisaUmPrice"); //INSIRA ALGO AQUI APÓS CRIAR O CORPO DO SITE
     elemento.scrollIntoView({ behavior: "smooth" });
 }
 function shineCamisaUmEnter() {
