@@ -179,6 +179,14 @@ button#saibaMaisButton:hover {
     top: 503px;
     left: 22.1%;
 }
+div#explorarTexto {
+    position: absolute;
+    top: 601px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: black;
+    border: 20px solid black;
+}
 div#camisaUmBox {
     position: absolute;
     top: 750px;
@@ -195,6 +203,20 @@ img#camisaUm {
 div#camisaUmText {
     position: absolute;
     top: 990px;
+    left: 9%;
+}
+div#tracoBody {
+    position: absolute;
+    width: 95%;
+    height: 1px;
+    background-color: rgba(182, 252, 52, 0.267);
+    top: 650px;
+    left: 50%;
+    transform: translate(-50%);
+}
+div#camisaUmPrice {
+    position: absolute;
+    top: 1015px;
     left: 9%;
 }
 /* Adaptação para mobile*/
@@ -340,6 +362,24 @@ div#camisaUmText {
         top: 653px;
         left: 50.1%;
     }
+    div#tracoBody {
+        position: absolute;
+        width: 95%;
+        height: 1px;
+        background-color: rgba(182, 252, 52, 0.267);
+        top: 720px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    div#explorarTexto {
+        position: absolute;
+        top: 693px;
+        left: 50%;
+        font-size: 7pt;
+        transform: translate(-50%);
+        background-color: black;
+        border: 10px solid black;
+    }
     img#camisaUm {
         position: absolute;
         top: 750px;
@@ -359,6 +399,12 @@ div#camisaUmText {
     div#camisaUmText {
         position: absolute;
         top: 890px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    div#camisaUmPrice {
+        position: absolute;
+        top: 920px;
         left: 50%;
         transform: translate(-50%);
     }
