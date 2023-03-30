@@ -1,7 +1,7 @@
 ::selection {
     z-index: 9;
     background-color: rgba(170, 255, 12, 0.555);
-    color: black;
+    color: white;
 }
 html {
     background-color: rgb(0, 0, 0);
@@ -432,6 +432,30 @@ div#camisaUmPrice {
             left: 60%;
             top: 40px;
         }
+        @media only screen and (min-device-height: 600px) {
+            button#contatoMainHeader {
+                position: fixed;
+                left: 60%;
+                top: 45px;
+                background-color: #1b1b1b; /* Cor de fundo do botão */
+                color: white; /* Cor do texto do botão */
+                padding: 3px 6px; /* Espaçamento interno do botão */
+                text-align: center; /* Centraliza o texto do botão */
+                text-decoration: none; /* Remove o sublinhado do texto */
+                display: inline-block; /* Define o botão como elemento inline */
+                font-size: 16px; /* Tamanho da fonte do texto do botão */
+                border-radius: 7px; /* Arredonda as bordas do botão */
+                border: 2px solid white;
+                box-shadow: 3px 3px 0 white;
+                cursor: pointer; /* Transforma o cursor em uma mãozinha quando passa sobre o botão */
+                transition: 0.25s;
+            }
+            button#contatoMainHeader:hover {
+                position: fixed;
+                left: 60%;
+                top: 40px;
+            }
+        }
     }
     @media only screen and (max-device-width: 393px) {
         div#redLineSubtitle {
@@ -446,3 +470,4 @@ div#camisaUmPrice {
             word-wrap: normal;
         }
     }
+
