@@ -219,6 +219,29 @@ div#camisaUmPrice {
     top: 1015px;
     left: 9%;
 }
+img#camisaDois {
+    position: absolute;
+    top: 750px;
+    left: 40%;
+}
+div#camisaDoisBox {
+    position: absolute;
+    top: 750px;
+    left: 40%;
+    width: 350px ;
+    height: 233px ;
+    background-color: rgba(255, 255, 255, 0);
+}
+div#camisaDoisText {
+    position: absolute;
+    top: 990px;
+    left: 40%;
+}
+div#camisaDoisPrice {
+    position: absolute;
+    top: 1015px;
+    left: 40%;
+}
 /* Adaptação para mobile*/
 @media only screen and (max-device-width: 1024px) {
     h1#nomeMainHeader {
@@ -408,7 +431,40 @@ div#camisaUmPrice {
         left: 50%;
         transform: translate(-50%);
     }
+    img#camisaDois {
+        position: absolute;
+        top: 1000px;
+        left: 50%;
+        width: 200px;
+        transform: translate(-50%);
     }
+    div#camisaDoisBox {
+        position: absolute;
+        top: 1000px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 200px ;
+        height: 133px ;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    div#camisaDoisText {
+        top: 1140px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    div#camisaDoisPrice {
+        position: absolute;
+        top: 1170px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    }
+    /*
+    =
+    =
+    =
+    =
+    */
     @media only screen and (max-device-width: 665px) {
         button#contatoMainHeader {
             position: fixed;
