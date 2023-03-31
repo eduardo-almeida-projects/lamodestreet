@@ -124,9 +124,10 @@ div#texto {
 }
 p#footer {
     position: absolute;
+    width: 100%;
+    left: -1px;
     top: 125%;
-    left: 50%;
-    transform: translate(-50%);
+    text-align: center;
 }
 /* Adaptação para mobile
 =
@@ -225,10 +226,11 @@ p#footer {
     }
     p#footer {
         position: absolute;
-        top: 250%;
+        width: 100%;
+        left: -1px;
+        top: 220%;
         font-size: 7.5pt;
-        left: 50%;
-        transform: translate(-50%);
+        text-align: center;
     }
 }
 @media only screen and (max-device-width: 665px) {
