@@ -1,5 +1,6 @@
 var camisa1 = document.getElementById('camisaUmBox');
 var camisa2 = document.getElementById('camisaDoisBox')
+var camisa3 = document.getElementById('camisaTresBox')
 
 function scrollToElement() {
     console.log('FUNCIONANDO')
@@ -21,4 +22,12 @@ function shineCamisaDoisEnter() {
 }
 function shineCamisaDoisLeave() {
     camisa2.style = 'border: 0px'
+}
+
+//CAMISA TRES 3333
+function shineCamisaTresEnter() {
+    camisa3.style = 'border: 1px solid rgb(166, 255, 0)'
+}
+function shineCamisaTresLeave() {
+    camisa3.style = 'border: 0px'
 }
