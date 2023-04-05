@@ -6,6 +6,52 @@
 html {
     background-color: rgb(0, 0, 0);
 }
+/*
+=
+=
+=
+*/
+p#lancamentosMainHeaderM {
+    position: absolute;
+    color: transparent;
+    font-size: 0pt;
+    text-decoration: none;
+    font-family: sans-serif;
+    top: 0;
+    left: 0;
+}
+p#estacoesMainHeaderM {
+    position: absolute;
+    color: transparent;
+    font-size: 0pt;
+    text-decoration: none;
+    font-family: sans-serif;
+    top: 0;
+    left: 0;
+}
+p#destaquesMainHeaderM {
+    position: absolute;
+    color: transparent;
+    font-size: 0pt;
+    text-decoration: none;
+    font-family: sans-serif;
+    top: 0;
+    left: 0;
+}
+p#recomendadosMainHeaderM {
+    position: absolute;
+    color: transparent;
+    font-size: 0pt;
+    text-decoration: none;
+    font-family: sans-serif;
+    top: 0;
+    left: 0;
+}
+/*
+=
+=
+=
+*/
 header#mainHeader {
 	position: fixed;
 	top: 4%;
@@ -273,6 +319,14 @@ img#lamodeCoats {
     top: 1200px;
     left: 50%;
     transform: translate(-50%);
+    box-shadow: 10px 10px 0 white;
+}
+p#footer {
+    position: absolute;
+    width: 100%;
+    left: -1px;
+    top: 235%;
+    text-align: center;
 }
 /* Adaptação para mobile*/
 @media only screen and (max-device-width: 1024px) {
@@ -290,41 +344,45 @@ img#lamodeCoats {
         left: 40px;
         width: 120px;
     }
-    p#lancamentosMainHeader {
-        position: fixed;
-        color: black;
-        font-size: 0px;
+    p#lancamentosMainHeaderM {
+        position: absolute;
+        color: white;
+        font-size: 7.5pt;
         text-decoration: none;
         font-family: sans-serif;
-        top: 0px;
-        left: 0px;
+        top: 305%;
+        left: 50%;
+        transform: translate(-50%);
     }
-    p#estacoesMainHeader {
-        position: fixed;
-        color: rgba(255, 255, 255, 0);
-        font-size: 0px;
+    p#estacoesMainHeaderM {
+        position: absolute;
+        color: white;
+        font-size: 7.5pt;
         text-decoration: none;
         font-family: sans-serif;
-        top: 0px;
-        left: 0px;
+        top: 309%;
+        left: 50%;
+        transform: translate(-50%);
     }
-    p#destaquesMainHeader {
-        position: fixed;
-        color: black;
-        font-size: 0px;
+    p#destaquesMainHeaderM {
+        position: absolute;
+        color: white;
+        font-size: 7.5pt;
         text-decoration: none;
         font-family: sans-serif;
-        top: 0px;
-        left: 0px;
+        top: 313%;
+        left: 50%;
+        transform: translate(-50%);
     }
-    p#recomendadosMainHeader {
-        position: fixed;
-        color: black;
-        font-size: 0px;
+    p#recomendadosMainHeaderM {
+        position: absolute;
+        color: white;
+        font-size: 7.5pt;
         text-decoration: none;
         font-family: sans-serif;
-        top: 0px;
-        left: 0px;
+        top: 317%;
+        left: 50%;
+        transform: translate(-50%);
     }
     button#contatoMainHeader {
         position: fixed;
@@ -522,6 +580,15 @@ img#lamodeCoats {
         top: 1550px;
         left: 50%;
         transform: translate(-50%);
+        box-shadow: 5px 5px 0 white;
+    }
+    p#footer {
+        position: absolute;
+        width: 100%;
+        left: -1px;
+        top: 330%;
+        font-size: 7.5pt;
+        text-align: center;
     }
     }
     /*
