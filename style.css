@@ -268,6 +268,12 @@ div#camisaTresPrice {
     top: 1015px;
     left: 68%;
 }
+img#lamodeCoats {
+    position: absolute;
+    top: 1200px;
+    left: 50%;
+    transform: translate(-50%);
+}
 /* Adaptação para mobile*/
 @media only screen and (max-device-width: 1024px) {
     h1#nomeMainHeader {
@@ -508,6 +514,12 @@ div#camisaTresPrice {
     div#camisaTresPrice {
         position: absolute;
         top: 1415px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    img#lamodeCoats {
+        position: absolute;
+        top: 1550px;
         left: 50%;
         transform: translate(-50%);
     }
