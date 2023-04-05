@@ -330,6 +330,53 @@ p#footer {
 }
 /* Adaptação para mobile*/
 @media only screen and (max-device-width: 1024px) {
+    /*
+    =
+    =
+    =
+    */
+    p#lancamentosMainHeader {
+        position: absolute;
+        color: transparent;
+        font-size: 0pt;
+        text-decoration: none;
+        font-family: sans-serif;
+        top: 0;
+        left: 0;
+    }
+    p#estacoesMainHeader {
+        position: absolute;
+        color: transparent;
+        font-size: 0pt;
+        text-decoration: none;
+        font-family: sans-serif;
+        top: 0;
+        left: 0;
+    }
+    p#destaquesMainHeader {
+        position: absolute;
+        color: transparent;
+        font-size: 0pt;
+        text-decoration: none;
+        font-family: sans-serif;
+        top: 0;
+        left: 0;
+    }
+    p#recomendadosMainHeader {
+        position: absolute;
+        color: transparent;
+        font-size: 0pt;
+        text-decoration: none;
+        font-family: sans-serif;
+        top: 0;
+        left: 0;
+    }
+    /*
+    =
+    =
+    =
+    =
+    */
     h1#nomeMainHeader {
         position: fixed;
         color: rgb(255, 255, 255);
